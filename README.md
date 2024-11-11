@@ -7,6 +7,8 @@ EdgeHub UI is an application for batch creating and onboarding devices.
 
 The main interface of the EdgeHub UI consists of a toolbar with various action buttons, a device table displaying discovered devices, and a pagination control at the bottom. Users can interact with the UI to scan, filter, onboard, export devices, and switch tenants.
 
+![EdgeHub Main Screen](images/edgehub_main_screen.png)
+
 ## Features
 
 - **Scan Devices**: Search for supported devices using a discovery protocol. (It uses mDNS to browse for devices of type `computer` with the service type `_edgehub._tcp.local` by default).
